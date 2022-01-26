@@ -25,12 +25,12 @@ class Obstacle {
     }
 
     preload(){
-        this.obstacleImageNebula = loadImage('../assets/nebula-sprite.gif')
-        this.obstacleImageGreen = loadImage('../assets/green-sprite.gif')
-        this.obstacleImagePhantom = loadImage('../assets/phantom sprite.gif')
-        this.obstacleImageVortex = loadImage('../assets/vortex.gif')
-        this.obstacleImageSunburst = loadImage('../assets/sunburst.gif')
-        this.collision = loadSound('../assets/collision.wav')
+        this.obstacleImageNebula = loadImage('/assets/nebula-sprite.gif')
+        this.obstacleImageGreen = loadImage('/assets/green-sprite.gif')
+        this.obstacleImagePhantom = loadImage('/assets/phantom sprite.gif')
+        this.obstacleImageVortex = loadImage('/assets/vortex.gif')
+        this.obstacleImageSunburst = loadImage('/assets/sunburst.gif')
+        this.collision = loadSound('/assets/collision.wav')
         this.collision.setVolume(0.3);
 
         
