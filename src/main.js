@@ -10,8 +10,8 @@ background.preload()
 player.preload()
 obstacle.preload()
 startEnd.preload()
-VCR = loadFont('/assets/VCR_OSD_MONO_1.001.ttf')
-soundtrack = loadSound('/assets/soundtrackShort.wav')
+VCR = loadFont('assets/VCR_OSD_MONO_1.001.ttf')
+soundtrack = loadSound('assets/soundtrackShort.wav')
 soundtrack.loop(true);}
 
 

@@ -9,8 +9,8 @@ class Player {
 
 
     preload (){
-        this.playerImage = loadImage('/assets/surt6.png')
-        this.boosting = loadSound('/assets/Randomize88.wav')
+        this.playerImage = loadImage('assets/surt6.png')
+        this.boosting = loadSound('assets/Randomize88.wav')
         this.boosting.setVolume(0.3)
     }
 
