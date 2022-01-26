@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.js"></script>
+    <title>Space Run</title>
+  </head>
+  <body>
+    <div>
+    <p>SCORE:</p><input id="Wins" type="number" onKeyDown="return false" value="0" min="0" />
+    <p>LIVES REMAINING:</p><input id="losses" type="number" onKeyDown="return false" value="5" min="0" />
+  </div>
+    <script src="src/background.js"></script>
+    <script src="src/Player.js"></script>
+    <script src="src/Obstacle.js"></script>
+    <script src="src/startEnd.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
