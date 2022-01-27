@@ -4,6 +4,7 @@ class Player {
         this.x = 0 
         this.y = 250
         this.controls = true
+
     }
 
 
@@ -49,6 +50,7 @@ class Player {
           
     }
 
+    
 
 
 
