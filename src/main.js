@@ -52,6 +52,9 @@ function resetPlayerLoss(){
     obstacle.vortexY = 480
     obstacle.sunburstX = (Math.random() * 560)+100
     obstacle.sunburstY = 0
+    startEnd.endY = 730
+    startEnd.posArray = [25,50,100,150,200,250,300,350,400,450]
+    startEnd.randomX = startEnd.posArray[Math.floor(startEnd.posArray.length * Math.random())];
     obstacle.collision.play()   
 }
 
@@ -69,6 +72,9 @@ function resetPlayerWin(){
     obstacle.vortexY = 0
     obstacle.sunburstX = (Math.random() * 560)+100
     obstacle.sunburstY = 480 
+    startEnd.endY = 730
+    startEnd.posArray = [25,50,100,150,200,250,300,350,400,450]
+    startEnd.randomX = startEnd.posArray[Math.floor(startEnd.posArray.length * Math.random())];
     startEnd.playerWin.play()
 }
 
