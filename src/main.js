@@ -90,7 +90,3 @@ function gameOver(){
 
 
 
-// - randomize planet again 
-// - tweak scroeboard styling 
-// - add game over sound that is triggered outside draw? 
-// - improve planet and station sprites
