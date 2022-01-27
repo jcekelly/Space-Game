@@ -37,13 +37,14 @@ div {
 
 
   input {
-    width: 35px;
+    width: 55px;
     height: 30px;
-    background-color:#EED7F5;
+    background-color:none;
     color: #FF6C00;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 10px;
     border-width: 0px;
+    font-size: 40px;
 
   }
 
